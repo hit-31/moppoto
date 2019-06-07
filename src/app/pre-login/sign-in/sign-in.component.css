@@ -1,0 +1,114 @@
+
+ .Login
+  {
+  
+    height: 633px;
+    background: linear-gradient( #faffff,#d1ffff,#b2ffff,#ffffff);
+    /* background: linear-gradient(#ffffff,#ffffff,#9cffff,#9cffff,#ffffff); */
+  }
+
+  h3{
+    margin-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2ba7b3;
+  }
+
+
+.col-md-4
+{
+  /* background: linear-gradient( #faffff,#ffffff38,#ffffff); */
+  background: linear-gradient( #ffffff, #ffffff38);
+  border-radius: 64px;
+  height: auto;
+  width: auto;
+  margin-top: -26px;
+
+}
+
+
+.signh2
+{
+  font-weight: bold;
+  text-align: center;
+  color: #363535;
+  margin-top: 170px;
+}
+
+.signh5
+{
+  text-align: center;
+  color: #363535;
+}
+
+.form-group {
+  margin-bottom: 0rem;
+}
+
+.form-control {
+  display: block;
+  width: 85%;
+  height: 31px;
+  padding: 6px 25px;
+  font-size: 14px;
+  border: 1px solid #8282826b;
+  border-radius: 4px;
+  margin-bottom: -5px;
+}
+
+input[type=button] {
+  color: #fff;
+  background-color: #47dbe3f5;
+  padding:10px 23px;
+  text-decoration: none;
+  margin: 4px 161px;
+  cursor: pointer;
+  border: none;
+
+}
+
+input[type=checkbox] {
+  margin-left: 50px;
+}
+
+
+.fa-facebook {
+
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 12rem
+}
+
+.fa-google {
+
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+ 
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+

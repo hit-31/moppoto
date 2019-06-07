@@ -1,0 +1,139 @@
+table th a.asc::after{
+	font-family: FontAwesome;
+    content: "\f0dd";
+	float:right;
+}
+table th a.desc::after{
+	font-family: FontAwesome;
+    content: "\f0de";
+	float:right;
+}
+
+.error{
+	/* color:#FF0000; */
+	font-weight: normal; 
+	font-family: "dejarip","Arial","Tahoma",sans-serif;
+}
+
+label.error{
+	color:#FF0000;
+	font-weight: normal; 
+	font-family: "dejarip","Arial","Tahoma",sans-serif;
+}
+
+.error-message{
+	color:#FF0000;
+}
+.form-error{
+	border-color:#FF0000;
+}
+.marL10{
+	margin-left:8px;
+}
+
+.discount_type_container .radio label
+{
+	display:block;
+}
+.gallery img {
+    display: inline-block;
+    float: left;
+    height: 150px;
+    padding: 10px;
+    width: 150px;
+}
+.add-more-trams,.remove-tram,.delete-terms{
+	margin: -8px -11px 0 0;
+}	
+.form-text{
+	border: 1px solid #d2d6de;
+    padding: 6px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #3c8dbc !important;
+    border-color: #367fa9 !important;
+    padding: 1px 10px !important;
+    color: #fff !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff !important;
+}
+.payment-note{
+    padding: 20px;
+    background-color: lightcyan;
+    margin-top: 25px;
+}
+.bg-grey{
+    background-color: #d4cfcf;
+}
+
+/* Added by Rakesh 29-11-18 */
+hr{
+    height: 1px;
+    color: #333; 
+    background-color: #33333387;
+    border-top: 1px;
+	margin-top: 5px;
+}
+.section-text{ 
+	font-size: 16px;
+	color: cornflowerblue;
+}
+.banner-preview {
+    width: 75%;
+    height: 155px;
+}
+.red_color {
+    color: red;
+}
+
+.border_solid{
+	border: solid 1px #333030;
+}
+
+
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  color:#555;
+  font-size:16px;
+  font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1px;
+  word-spacing:3px;
+	text-decoration:none;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+} 
+
+.top_header>th{
+	border: solid 1px #504c4c;
+}
+.vendor-list .panel-heading {
+    padding: 0;
+      border:0;
+}
+/* For horizontal scrol of table */
+.horizontal-scroll {
+    overflow-x: scroll;
+}
+.horizontal-scroll table {
+    width: 1250px !important;
+}
+.rating_div button.btn {
+    margin: 1px; 
+}
+.plus-button{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+}

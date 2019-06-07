@@ -1,0 +1,267 @@
+@media (max-width: 1299.98px){}
+
+@media (max-width: 1199.98px){
+    html{ font-size: 12px;}
+    
+    .owl-prev, .owl-next{ left: -30px;}
+    .owl-next{ left: inherit; right: -30px;}
+    .navigation .navbar-nav > li > a{
+        font-size: 1.07rem;
+    }
+    /****Login css start*****/
+        .login-signup{
+            background-size: 100% 100%;
+            background-position: center;
+        }
+        .login-signup-left {
+            width: 100%;
+            padding: 100px 0px;
+        }
+        .login-signup-left p {
+            text-align: left;
+        }
+        .login-signup-left {
+            width: 100%;
+            padding: 180px 0px;
+        }
+    /****Login css end*****/
+
+    /****Blog page css start*****/
+        .Article-blog .acticle-content {
+            width: 260px;
+            left: 421px;
+            padding: 20px;
+        }
+        .Article-blog .acticle-content h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+    /****Blog page css End*****/
+
+    /****Activity page css start****/
+        .Activity-left-panel .input-select{
+            width: 110px;
+        }
+    /****Activity page css End****/
+
+
+}
+
+@media (max-width: 991.98px){
+    .logo{ top: .6rem;}
+    .navigation .navbar-nav.top_nav, 
+    .top_icon_nav{ margin: .8rem 0rem;}
+    
+    .navbar-expand-md .navbar-toggler{ display: block;}
+    .navbar-expand-md .navbar-collapse{ display: none !important;}
+    .navbar-expand-md .navbar-collapse.show,
+    .navbar-expand-md .navbar-collapse.collapsing{ display: block !important; overflow: hidden !important; margin: 0rem 0rem;}
+    
+    .navigation .navbar-nav{ display: block; text-align: center; margin-top: 2rem;}
+    .navigation .navbar-nav li{ display: inline-block;}
+    
+    .home_body_content { padding: 3rem 0rem;}
+    .home_banner .container{ min-height: 40rem; padding-top: 5rem;}
+    .icons_list li { width: 25%; min-height: 13rem;}
+    .latest_blog_full{ margin-bottom: 1.5rem;}
+    .other_btn .btn{ margin: 2.5rem 0rem;}
+    .download_app_title{ font-size: 2rem;}
+    .download_app_links li a img{ max-width: 10rem;}
+    .social_link{ margin-top: 1.3rem;}
+    .social_link,
+    .copyright_sec{ text-align: center;}
+    /****Login css start*****/
+        .login-signup{
+            background-size: cover;
+
+        }
+    /****Login css end*****/
+
+    /****Blog page css start*****/
+        .Article-blog .acticle-content {
+            width: 210px;
+            left: 311px;
+            padding: 10px;
+        }
+        .Article-blog .acticle-content h1 {
+            font-size: 26px;
+            margin-bottom: 7px;
+        }
+        .blog-list-left h2{
+            font-size: 25px;
+            margin-bottom: 4px;
+        }
+    /****Blog page css End*****/
+
+    /****Activity page css start****/
+        .Activity-left-panel span{
+            width: 50px;
+        }
+        .Activity-left-panel .input-select {
+            width: 100px;
+            margin-right: 2px;
+            font-size: 12px;
+            margin-bottom: 6px;
+        }
+        .place-header .place-category{
+            font-size: 14px;
+        }
+        .place-header .place-reating {
+            font-size: 11px;
+            margin: 3px 0px;
+        }
+        span.place-name{
+            font-size: 15px;
+        }
+        .place-content p{
+            font-size: 13px;
+        }
+        span.promo-count img{
+            width: 16px;
+        }
+        span.promo-count, span.loaction {
+            font-size: 16px;
+        }
+        .loaction i {
+            font-size: 20px;
+            width: 22px;
+            padding-left: 1px;
+        }
+        span.price{
+            font-size: 12px;
+        }
+        ul.Activity-list li {
+            margin: 0px 3px;
+        }
+        ul.Activity-list li a {
+            padding: 3px 8px;
+            font-size: 12px;
+        }
+        ul.Activity-list li span a {
+            font-size: 21px;
+            position: relative;
+            top: 3px;
+        }
+        .all-inputs {
+            width: calc(100% - 60px);
+            float: left;
+        }
+
+
+    /****Activity page css End*****/
+    
+}
+
+@media (max-width: 767.98px){
+    .navbar-expand-md > .container{ position: relative; display: block;}
+    .logo{ width: 18rem; position: static; display: inherit; margin: 0rem auto .3rem;}
+    .navigation .navbar-nav.top_nav, .top_icon_nav{ width: 100%; display: block; text-align: center;}
+    .navigation .navbar-nav.top_nav > li, .top_icon_nav > li{ display: inline-block; float: none;}
+    .navigation .navbar-toggler{ position: absolute; top: .5rem; right: 1.07rem;}
+    .navigation .navbar-nav{ margin-top: .5rem;}
+    
+    .top_form_block .form-control{ width: 30rem;}
+    
+    .icons_list li { width: 33.33%;}
+    .footer_logo{ max-width: 18rem; margin: 0 auto 2rem; display: inherit;}
+    .footer_links{ text-align: center; padding-right: 0rem;}
+    /****Login css start*****/
+    .login-signup-left {
+        width: 100%;
+        padding: 20px 0px 50px;
+    }
+    /****Login css end*****/
+
+    /****Blog page css start*****/
+        .heading h2 {
+            font-size: 26px;
+        }
+        .blog-content h3{
+            font-size: 19px;
+        }
+        .Article-blog .acticle-content {
+            width: 210px;
+            left: 221px;
+            padding: 10px;
+        }
+        .Article-blog .acticle-content h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .acticle-content button {
+            font-size: 13px;
+            padding: 7px 9px;
+        }
+        .space-right, .space-left{
+            padding-right: 15px;
+            position: initial;
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+        .blog-list-left {
+            margin-bottom: 15px;
+        }
+        .extra-space{
+            padding-left: 0px;
+        }
+        .blog-list {
+            margin-bottom: 50px;
+        }
+        .all-pages, .custom-pagenation {
+            margin: 50px 0px 50px;
+        }
+    /****blog page css end****/
+
+    /****Activity page css start*****/
+        .place-img img {
+            width: 100%;
+        }
+        ul.Activity-list {
+            text-align: left;
+        }
+    /****Activity page css End*****/
+}
+
+@media (max-width: 575.98px){
+    .navigation .navbar-nav{ text-align: left;}
+    .navigation .navbar-nav li{ display: block;}
+    
+    .top_form_block .form-control { width: 20rem;}
+    
+    .owl-prev, .owl-next { left: 10px; background-color: #ffffff; padding: 1rem 1rem;}
+    .owl-next { left: inherit; right: 10px;}
+    .latest_blog_half{ margin: 1rem 0rem;}
+    .latest_blog_half img{ display: inherit; margin: 0px auto;}
+    .download_app_img_sec{ display: none;}
+    .download_app_data_sec{ width: 100%; margin-left: 0rem;}
+    .download_app_block{ padding-top: 0rem;}
+
+    /****blog page css start****/
+    .Article-blog {
+        position: relative;
+        border: 1px solid #dbddd8;
+    }
+    .Article-blog .acticle-content {
+        width: 100%;
+        padding: 10px;
+        position: initial;
+    }
+    .all-pages, .custom-pagenation {
+        margin: 20px 0px 20px;
+        float: left;
+    }
+    .right-pages {
+        text-align: left;
+        margin: 20px 0px;
+    }
+}
+
+@media (max-width: 479.98px){
+    .top_form_block .form-control { width: 100%;}
+    .icons_list li { width: 50%;}
+    .footer_links{ text-align: left;}
+    .footer_links li{ width: 100%;}
+    .download_app_title { font-size: 1.5rem;}
+    .get_started_block .get_first_line{ font-size: 3rem; color: #ffffff;}
+    .home_banner .container { min-height: 25rem; padding-top: 5rem; padding-bottom: 5rem;}
+}
